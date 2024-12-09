@@ -8,7 +8,7 @@ int main (void)
         printf("How big do you want the pyramid to be? ");
         scanf("%d", &number);
 
-        if (number < 1)
+        if (number < 1 && number > 8)
         {
             printf("Invalid number. Only numbers bigger than 0!\n");
         }
