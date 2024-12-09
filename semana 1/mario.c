@@ -15,7 +15,7 @@ int main(void)
             printf("Invalid number. Only numbers bigger than 0!\n");
         }
 
-    } while (number < 1);
+    } while (number < 1 && number > 8);
     
     
 
